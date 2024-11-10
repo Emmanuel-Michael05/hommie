@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hommies Touch - Jersey Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Motion GIF -->
+    <div class="background">
+        <img src="pictures/lady.gif" alt="Background Motion Image"> <!-- Add your GIF here -->
+    </div>
+
+    <!-- Overlay Content -->
+    <div class="overlay">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Hommies Touch</h1>
+            <p>Your ultimate destination for premium jerseys from top English and Spanish clubs!</p>
+        </header>
+
+        <!-- Introduction Section -->
+        <section class="introduction">
+            <h2>About Us</h2>
+            <p>At Hommies Touch, we offer authentic jerseys of top clubs in England and Spain. Our goal is to provide high-quality products that let fans wear their passion proudly. From home kits to away jerseys, we’ve got everything for the true fan.</p>
+        </section>
+
+        <!-- Jersey Listing Section -->
+        <section class="jersey-list">
+            <h2>Our Collection</h2>
+            <!-- Jersey Card Example (Repeat for each jersey) -->
+            <div class="jersey-card">
+                <img src="pictures/manu.jpg" alt="Manchester United Jersey">
+                <h3>Manchester United - Home Jersey</h3>
+                <p>Price: ₦35,000</p>
+                <button onclick="addToCart('Manchester United - Home Jersey')">Add to Cart</button>
+            </div>
+            <div class="jersey-card">
+                <img src="pictures/tot.webp" alt="Tottenham Jersey">
+                <h3>Tottenham - Away Jersey</h3>
+                <p>Price: ₦38,500</p>
+                <button onclick="addToCart('Real Madrid - Away Jersey')">Add to Cart</button>
+            </div>
+            <div class="jersey-card">
+                <img src="pictures/chelsea.jpg" alt="Chelsea Jersey">
+                <h3>Chelsea - Away Jersey</h3>
+                <p>Price: ₦38,500</p>
+                <button onclick="addToCart('Real Madrid - Away Jersey')">Add to Cart</button>
+            </div>
+            <div class="jersey-card">
+                <img src="pictures/arsenal.jpg" alt="arsenal Jersey">
+                <h3>Arsenal - Away Jersey</h3>
+                <p>Price: ₦38,500</p>
+                <button onclick="addToCart('Real Madrid - Away Jersey')">Add to Cart</button>
+            </div>
+            <div class="jersey-card">
+                <img src="pictures/liverpool.webp" alt="liverpool Jersey">
+                <h3>Liverpool - Away Jersey</h3>
+                <p>Price: ₦38,500</p>
+                <button onclick="addToCart('Real Madrid - Away Jersey')">Add to Cart</button>
+            </div>
+            <!-- Add more jersey cards as needed -->
+        </section>
+
+        <!-- Booking Section -->
+        <section class="booking">
+            <h2>Book a Personal Shopping Slot</h2>
+            <p>Book a slot for a personalized shopping experience. Our team is here to help you find the perfect jersey!</p>
+            <form id="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" required>
+                
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" required>
+                
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>For inquiries, reach us directly:</p>
+            <ul>
+                <li>Phone: 09160811080</li>
+                <li>Email: emiblings10@gmail.com</li>
+                <li>
+                    <a href="https://wa.me/+2349160811080" target="_blank">WhatsApp Us</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p>&copy; 2024 Hommies Touch. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
